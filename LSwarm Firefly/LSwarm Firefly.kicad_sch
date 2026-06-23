@@ -8382,6 +8382,16 @@
 		)
 		(uuid "030674f8-f8a7-40db-bab9-02bbbfc5bf4f")
 	)
+	(text "BUZZ"
+		(exclude_from_sim no)
+		(at 123.19 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0afddfa2-3b0e-48c1-8dad-4064a89045b3")
+	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 203.962 89.154 0)
@@ -8391,16 +8401,6 @@
 			)
 		)
 		(uuid "0b95c1d0-b7e4-4248-9884-6ac7ee0f88fd")
-	)
-	(text "STATUS"
-		(exclude_from_sim no)
-		(at 205.232 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0ff8297f-3c98-48d0-bc4d-23f351c1f123")
 	)
 	(text "3.3V DECOUPLING"
 		(exclude_from_sim no)
@@ -8421,16 +8421,6 @@
 			)
 		)
 		(uuid "12216c69-ad5d-4995-b654-0894e75b1e53")
-	)
-	(text "LED ARRAY"
-		(exclude_from_sim no)
-		(at 207.01 38.354 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "22d596d5-2d27-4be2-9c66-bd1052144ff6")
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
@@ -8602,6 +8592,16 @@
 		)
 		(uuid "7e0c3d6f-b1b0-4642-b588-5ecea8ed9f87")
 	)
+	(text "MOTOR 2"
+		(exclude_from_sim no)
+		(at 121.158 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80007200-13a5-4b8e-aa2f-89c2e1ea4425")
+	)
 	(text "IMU"
 		(exclude_from_sim no)
 		(at 204.978 96.774 0)
@@ -8682,6 +8682,16 @@
 		)
 		(uuid "9aa93e5a-88cc-4935-96c8-07c8e8ae11ac")
 	)
+	(text "LED ARRAY"
+		(exclude_from_sim no)
+		(at 120.904 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e556f72-729a-437e-a4fe-b7d212dd15ac")
+	)
 	(text "BARO"
 		(exclude_from_sim no)
 		(at 209.804 96.774 0)
@@ -8742,16 +8752,6 @@
 		)
 		(uuid "bb06329a-7136-4142-8ed7-6523e4f65268")
 	)
-	(text "BUZZ"
-		(exclude_from_sim no)
-		(at 204.47 40.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "be9e62be-8bb3-4e48-858b-bd4be7642eeb")
-	)
 	(text "VBUS Divider"
 		(exclude_from_sim no)
 		(at 225.806 134.112 0)
@@ -8781,6 +8781,16 @@
 			)
 		)
 		(uuid "d3d42eee-a2d8-44fa-b77e-76e482a5be29")
+	)
+	(text "MOTOR 1"
+		(exclude_from_sim no)
+		(at 121.158 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5b061d4-60bf-4be4-917c-0a531b3f1f00")
 	)
 	(text "STATUS LED"
 		(exclude_from_sim no)
@@ -8842,15 +8852,15 @@
 		)
 		(uuid "e98c39b5-b8e3-46c2-9a1f-890d2d12a091")
 	)
-	(text "MOTOR"
+	(text "STATUS"
 		(exclude_from_sim no)
-		(at 205.232 43.18 0)
+		(at 205.232 35.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "f8c1477c-f198-410c-a901-4bd640c489fb")
+		(uuid "e9b9c172-c75e-45b7-bb5d-5de425ba1c7d")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -9619,6 +9629,10 @@
 	(no_connect
 		(at 59.69 151.13)
 		(uuid "df5228b8-7cb1-4cdc-a1f5-cadac253a3e4")
+	)
+	(no_connect
+		(at 252.73 62.23)
+		(uuid "e4b6149d-fced-411d-ad4a-9a461d9eb65a")
 	)
 	(no_connect
 		(at 59.69 140.97)
@@ -12772,6 +12786,30 @@
 			)
 		)
 	)
+	(global_label "STM32_PC3"
+		(shape input)
+		(at 139.7 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26ccd614-cc5f-4085-9383-c63cfb3b9cbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9502 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "STM32_USB_DP"
 		(shape input)
 		(at 187.96 71.12 0)
@@ -12796,19 +12834,19 @@
 			)
 		)
 	)
-	(global_label "STM32_PB6"
+	(global_label "STM32_PB7"
 		(shape input)
-		(at 347.98 69.85 180)
+		(at 187.96 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "28bccab4-54da-4090-b287-afb4103fdce2")
+		(uuid "2b3d285f-90fb-4c6d-a12e-5eab0c906fa9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.2302 69.85 0)
+			(at 201.7098 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12816,7 +12854,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -12889,6 +12927,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "STM32_PC3"
+		(shape input)
+		(at 367.03 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "338032da-6bb1-4016-8c27-6d313df2b9f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.2802 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12977,30 +13039,6 @@
 		(uuid "3faf61c4-4f1b-4cfc-89c1-ab89fef1567d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.0698 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "STM32_PB7"
-		(shape input)
-		(at 187.96 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42118cb3-13e1-4f00-8067-64880a0b907a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7098 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13204,6 +13242,30 @@
 			)
 		)
 	)
+	(global_label "STM32_PC4"
+		(shape input)
+		(at 139.7 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53a6235b-4ca7-4a78-90c8-6670832b6a47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9502 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "STM32_PC6"
 		(shape input)
 		(at 187.96 91.44 0)
@@ -13276,19 +13338,19 @@
 			)
 		)
 	)
-	(global_label "STM32_PC9"
+	(global_label "STM32_PC5"
 		(shape input)
-		(at 187.96 83.82 0)
+		(at 139.7 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "57355338-ce3f-4e8e-8cfe-e55017feb4bb")
+		(uuid "579da3c1-196d-4dfb-9acb-77a9f54e0880")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7098 83.82 0)
+			(at 125.9502 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13296,31 +13358,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "STM32_PB5"
-		(shape input)
-		(at 187.96 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5875abf6-9d79-49d3-b913-977b5e0296e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7098 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -13348,30 +13386,6 @@
 			)
 		)
 	)
-	(global_label "STM32_PB4"
-		(shape input)
-		(at 295.91 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "59f6215c-5fca-49cb-95ff-7e9cc235f890")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.1602 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "STM32_PC7"
 		(shape input)
 		(at 198.12 177.8 180)
@@ -13385,54 +13399,6 @@
 		(uuid "5de59d12-2124-46e4-88e6-f248b6b0bf00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.3702 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "STM32_PB6"
-		(shape input)
-		(at 187.96 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "604a3a3d-98a1-436b-bd27-145a513ed013")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7098 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "STM32_PB4"
-		(shape input)
-		(at 367.03 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "645fef58-bd3b-4d6c-8944-b7fce345eecc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.2802 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13684,6 +13650,30 @@
 			)
 		)
 	)
+	(global_label "STM32_PC4"
+		(shape input)
+		(at 347.98 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f8aea46-da74-4633-899b-ec0ffa3d89bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.2302 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "STM32_PA2"
 		(shape input)
 		(at 59.69 176.53 180)
@@ -13708,19 +13698,19 @@
 			)
 		)
 	)
-	(global_label "STM32_PB4"
+	(global_label "STM32_PC2"
 		(shape input)
-		(at 187.96 43.18 0)
+		(at 139.7 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "832dfb49-14a0-4434-ae0c-824aa6fe502e")
+		(uuid "815f0526-b195-40ec-b80c-85403238a627")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7098 43.18 0)
+			(at 125.9502 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13728,7 +13718,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -13828,6 +13818,30 @@
 			)
 		)
 	)
+	(global_label "STM32_PC5"
+		(shape input)
+		(at 284.48 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d9946d2-73c0-4ae6-9e98-a8ed018c6390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 298.2298 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 49.53 77.47 180)
@@ -13849,30 +13863,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "STM32_PA10"
-		(shape input)
-		(at 187.96 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91fc40e5-d71f-4512-954e-b9934580329c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.7379 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -13948,7 +13938,55 @@
 			)
 		)
 	)
-	(global_label "RP2350_PB6_5.5V"
+	(global_label "STM32_PC2"
+		(shape input)
+		(at 295.91 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0ee9ed9-74ad-4af0-bdc7-a3ee1bfef1bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1602 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "STM32_PC4_5.5V"
+		(shape input)
+		(at 363.22 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a294d222-9bc8-4d9d-aea9-f88ed5f7d437")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.0498 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "STM32_PC4_5.5V"
 		(shape input)
 		(at 381 69.85 0)
 		(fields_autoplaced yes)
@@ -13960,7 +13998,7 @@
 		)
 		(uuid "ab2cdee0-1d1d-48ea-ba46-992d0058f607")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 401.1603 69.85 0)
+			(at 399.8298 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14020,30 +14058,6 @@
 			)
 		)
 	)
-	(global_label "STM32_PC3"
-		(shape input)
-		(at 139.7 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae8834d2-85ef-4bfb-a5aa-aa8b0e0f1e6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.9502 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "STM32_PB11"
 		(shape input)
 		(at 187.96 104.14 0)
@@ -14092,30 +14106,6 @@
 			)
 		)
 	)
-	(global_label "STM32_PB5"
-		(shape input)
-		(at 284.48 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc403929-2314-4397-a64a-f4f3356e1ff0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.2298 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "STM32_PA9"
 		(shape input)
 		(at 187.96 78.74 0)
@@ -14129,30 +14119,6 @@
 		(uuid "bd8f0019-43b9-4837-a524-dc3b289bb480")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.5284 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "STM32_PA8"
-		(shape input)
-		(at 187.96 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "be422966-70bc-4ed6-8263-4f8b83601d80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.5284 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14273,30 +14239,6 @@
 		(uuid "d269ff36-c94c-4693-bc36-eede574722d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.9365 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RP2350_PB6_5.5V"
-		(shape input)
-		(at 363.22 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d40120a1-fcc1-4190-ab25-e4fe4c40a7ae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.3803 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22761,6 +22703,7 @@
 		(uuid "a0fda6f8-2af1-4eff-9c75-eafd9ae2ff3a")
 		(property "Reference" "C55"
 			(at 54.102 110.998 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
