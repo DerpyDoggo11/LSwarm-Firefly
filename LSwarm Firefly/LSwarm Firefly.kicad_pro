@@ -54,28 +54,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|13320000|0|58a267c6-1a0b-40dd-90ab-0214a43cbf99|d0be68b2-b99c-473d-8484-03630ca08be4",
-          ""
-        ],
-        [
-          "silk_edge_clearance|14600000|0|58a267c6-1a0b-40dd-90ab-0214a43cbf99|b73c12ef-4b37-4a5e-8e99-5a4bdb447a01",
-          ""
-        ],
-        [
-          "silk_edge_clearance|42087079|1587079|e05b2d0f-d559-4932-9ae1-fb9a90c7569d|4da2765e-01c4-4770-adfa-5885f693a22a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|48408614|7908614|e05b2d0f-d559-4932-9ae1-fb9a90c7569d|fc4288af-33cb-4b83-813d-31b0bb255451",
-          ""
-        ],
-        [
-          "silk_over_copper|18750000|4580000|5c42bead-e5ee-4591-b710-de099a7b37c5|a5ae52cf-3df1-4ed3-8d6b-b5046ebeeee4",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -653,7 +632,7 @@
         "uuid": "8b1093f7-47d1-4d49-ac45-0c3845b9791c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP37-74,#PWR62,#PWR83,#PWR85,#PWR102-104,#PWR111-112",
     "variants": []
   },
   "sheets": [
