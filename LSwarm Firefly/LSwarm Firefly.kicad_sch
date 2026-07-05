@@ -5,187 +5,6 @@
 	(uuid "8b1093f7-47d1-4d49-ac45-0c3845b9791c")
 	(paper "A0")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -965,172 +784,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS14"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS14"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "40V 1A Schottky Diode, SMA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SS14_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS14_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:AP2112K-3.3"
 			(pin_names
 				(offset 0.254)
@@ -1315,321 +968,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:AO3400A"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3400A"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AO3400A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AO3400A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2447,6 +1785,574 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:DRV8311HRRWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV8311HRRWR"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:QFN-24_L3.0-W3.0-P0.40-TL-EP1.9_TI_RRW0024A"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5218862.pdf"
+				(at 0 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "DRV8311HRRWR"
+				(at 0 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5218862"
+				(at 0 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRV8311HRRWR_0_1"
+				(rectangle
+					(start -13.97 15.24)
+					(end 13.97 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -12.7 13.97)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 12.7 0)
+					(length 2.54)
+					(name "nFAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 10.16 0)
+					(length 2.54)
+					(name "CSAREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 7.62 0)
+					(length 2.54)
+					(name "SOC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 5.08 0)
+					(length 2.54)
+					(name "SOB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 2.54 0)
+					(length 2.54)
+					(name "SOA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 0 0)
+					(length 2.54)
+					(name "CP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -2.54 0)
+					(length 2.54)
+					(name "VIN_AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -5.08 0)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -7.62 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -10.16 0)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -12.7 0)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -15.24 0)
+					(length 2.54)
+					(name "OUTC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -15.24 180)
+					(length 2.54)
+					(name "INHC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -12.7 180)
+					(length 2.54)
+					(name "INHB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "INHA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "INLA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "INLB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "INLC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 5.08 180)
+					(length 2.54)
+					(name "GAIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 7.62 180)
+					(length 2.54)
+					(name "SLEW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 10.16 180)
+					(length 2.54)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 12.7 180)
+					(length 2.54)
+					(name "nSLEEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8096,18 +8002,6 @@
 		(uuid "1edf94d6-80ba-44d2-86bf-7a982e523226")
 	)
 	(rectangle
-		(start 314.96 137.16)
-		(end 386.08 185.42)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1f9605c3-d949-41bd-abd7-05579ce8cca9")
-	)
-	(rectangle
 		(start 325.12 48.26)
 		(end 439.42 86.36)
 		(stroke
@@ -8120,8 +8014,8 @@
 		(uuid "225ba831-3242-4841-a3a5-d0d64bacf6c9")
 	)
 	(rectangle
-		(start 386.08 162.56)
-		(end 439.42 185.42)
+		(start 314.96 162.56)
+		(end 368.3 185.42)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -8156,6 +8050,18 @@
 		(uuid "4584e840-554e-4aa0-a994-8222a47594e1")
 	)
 	(rectangle
+		(start 368.3 137.16)
+		(end 480.06 185.42)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "566c3529-e20e-49bf-b544-324eeaa3aade")
+	)
+	(rectangle
 		(start 111.76 137.16)
 		(end 213.36 185.42)
 		(stroke
@@ -8178,18 +8084,6 @@
 			(type none)
 		)
 		(uuid "669cba96-4420-42c2-b01c-e761e84942ad")
-	)
-	(rectangle
-		(start 227.1302 80.1517)
-		(end 237.0401 82.4386)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6c2a9b7d-20cb-46c5-a7b8-6dc001439de9")
 	)
 	(rectangle
 		(start 111.76 15.24)
@@ -8264,8 +8158,8 @@
 		(uuid "af3113e4-7e7f-472d-ba96-7ece203d16a6")
 	)
 	(rectangle
-		(start 386.08 137.16)
-		(end 439.42 162.56)
+		(start 314.96 137.16)
+		(end 368.3 162.56)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -8323,16 +8217,6 @@
 		)
 		(uuid "d82f8d89-b170-466b-b62c-cc1916269514")
 	)
-	(text "+"
-		(exclude_from_sim no)
-		(at 353.06 152.654 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "030674f8-f8a7-40db-bab9-02bbbfc5bf4f")
-	)
 	(text "3.3V DECOUPLING"
 		(exclude_from_sim no)
 		(at 148.59 132.588 0)
@@ -8365,7 +8249,7 @@
 	)
 	(text "BUZZ"
 		(exclude_from_sim no)
-		(at 432.816 182.372 0)
+		(at 361.696 182.372 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8453,6 +8337,16 @@
 		)
 		(uuid "68be0123-9c43-43af-954b-f8d1651d65c3")
 	)
+	(text "Motor 1"
+		(exclude_from_sim no)
+		(at 463.55 182.372 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6e887a2e-29d0-4947-8756-24b70b6b67bc")
+	)
 	(text "BREAKOUT"
 		(exclude_from_sim no)
 		(at 119.394 32.4193 0)
@@ -8493,16 +8387,6 @@
 		)
 		(uuid "90aac2a5-c650-4d94-a841-aa097d025393")
 	)
-	(text "Motor 1"
-		(exclude_from_sim no)
-		(at 376.936 182.626 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "98026744-7437-4659-a50c-b3d0f91f0db3")
-	)
 	(text "BREAKOUT"
 		(exclude_from_sim no)
 		(at 220.4309 45.7616 0)
@@ -8535,7 +8419,7 @@
 	)
 	(text "Servo 1"
 		(exclude_from_sim no)
-		(at 431.546 160.02 0)
+		(at 360.426 160.02 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -8552,16 +8436,6 @@
 			)
 		)
 		(uuid "ce7f58a0-d466-4f8e-8d25-0c53e35fd5af")
-	)
-	(text "BREAKOUT"
-		(exclude_from_sim no)
-		(at 231.9864 81.5147 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cfcea980-17d3-48b7-b1b7-65ac51a183b4")
 	)
 	(text "STATUS LED"
 		(exclude_from_sim no)
@@ -8602,16 +8476,6 @@
 			)
 		)
 		(uuid "e98c39b5-b8e3-46c2-9a1f-890d2d12a091")
-	)
-	(text "STATUS"
-		(exclude_from_sim no)
-		(at 205.232 35.814 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e9b9c172-c75e-45b7-bb5d-5de425ba1c7d")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -8708,6 +8572,12 @@
 		(uuid "2648ff2b-b49e-4544-8c30-d09c47588a3f")
 	)
 	(junction
+		(at 471.17 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d05a760-7c8a-4023-bbc6-b4d60ec3ecf6")
+	)
+	(junction
 		(at 360.68 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8724,6 +8594,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34a43f9f-7c4b-42a2-bb77-aec7ec0556d3")
+	)
+	(junction
+		(at 377.19 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "377d2d33-fa3b-464c-bfa6-add9bb13cd7a")
 	)
 	(junction
 		(at 80.01 116.84)
@@ -8780,6 +8656,12 @@
 		(uuid "58867dd9-5647-4389-ad71-f330e0932e0e")
 	)
 	(junction
+		(at 377.19 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59a0f9b3-8403-46a2-a469-df0293cebcf9")
+	)
+	(junction
 		(at 80.01 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8810,6 +8692,12 @@
 		(uuid "67e1d29f-d240-4dc4-b426-a89b220e415c")
 	)
 	(junction
+		(at 453.39 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c207176-8c88-45af-9958-71f76ecccc0f")
+	)
+	(junction
 		(at 236.22 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8820,6 +8708,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72469dca-6d6f-4c2b-a869-9cee43d29678")
+	)
+	(junction
+		(at 389.89 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df4101d-d105-4e34-aa1c-a66de2dc0728")
 	)
 	(junction
 		(at 129.54 125.73)
@@ -8888,6 +8782,12 @@
 		(uuid "938b46b1-12d6-4ff9-a3da-c19b2554de2e")
 	)
 	(junction
+		(at 459.74 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "943b08d5-bd37-4509-a8c4-b7e8bde18570")
+	)
+	(junction
 		(at 52.07 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8942,6 +8842,12 @@
 		(uuid "a5b3a837-6e36-4a45-a7cc-542eeb1ad72c")
 	)
 	(junction
+		(at 471.17 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a63d9b05-bf85-4c39-9027-9c57d772e6a3")
+	)
+	(junction
 		(at 146.05 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8972,6 +8878,12 @@
 		(uuid "af7661f5-8bc1-493c-bae9-d11f9d7d1d5b")
 	)
 	(junction
+		(at 400.05 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9cb5ecf-49d4-4367-9fe5-2c51f0be1829")
+	)
+	(junction
 		(at 80.01 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8988,12 +8900,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be887586-d644-431c-a390-0611b4e9e9f0")
-	)
-	(junction
-		(at 358.14 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf16ccd5-2e5f-4396-bfe5-3160cbe3413a")
 	)
 	(junction
 		(at 120.65 167.64)
@@ -9014,6 +8920,12 @@
 		(uuid "c1684c03-08f0-432f-825b-c2cf8ce95493")
 	)
 	(junction
+		(at 393.7 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36b74b0-7653-47b3-b450-2fdf186fc214")
+	)
+	(junction
 		(at 250.19 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9032,13 +8944,19 @@
 		(uuid "c705941e-d809-45d0-8f75-d5e5d31792a6")
 	)
 	(junction
+		(at 471.17 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ca52b9-78a0-4d5b-aa51-bf55d3565e73")
+	)
+	(junction
 		(at 408.94 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8ea442f-92c0-41b8-a2c4-0eca1556196e")
 	)
 	(junction
-		(at 419.1 144.78)
+		(at 347.98 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb479bef-b24a-4379-9215-276ecdbb269f")
@@ -9072,12 +8990,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d24a96bd-da9b-4126-9864-f89b9c4747e3")
-	)
-	(junction
-		(at 349.25 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d26b135e-5639-4783-80a0-01a727aea85a")
 	)
 	(junction
 		(at 137.16 118.11)
@@ -9116,6 +9028,12 @@
 		(uuid "e6b8c436-ef32-472d-9f62-4bea3c478aa6")
 	)
 	(junction
+		(at 433.07 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9f4fdae-7ecf-46b4-8d65-d8e81beb1722")
+	)
+	(junction
 		(at 80.01 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9126,6 +9044,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f057de1e-bea7-4dca-b2e9-b31124cf4e75")
+	)
+	(junction
+		(at 455.93 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0b5a948-ecd1-4af9-97d8-a1261437e07e")
 	)
 	(junction
 		(at 273.05 158.75)
@@ -9150,12 +9074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb1a5098-4ef3-4179-ac5c-dbf19bcce8c1")
-	)
-	(junction
-		(at 337.82 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fca24fe4-9f86-4e58-abe3-0f43e2ccb2ce")
 	)
 	(junction
 		(at 80.01 132.08)
@@ -9296,7 +9214,7 @@
 		(uuid "ad09a129-c9fb-4393-8b54-566edcc071d0")
 	)
 	(no_connect
-		(at 412.75 180.34)
+		(at 341.63 180.34)
 		(uuid "b0e0e645-5930-4570-bb19-b11f798d3cd8")
 	)
 	(no_connect
@@ -9354,7 +9272,17 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 142.24) (xy 412.75 142.24)
+			(xy 455.93 167.64) (xy 455.93 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01005fd2-e0b7-4c91-a75b-c56c188dcd5d")
+	)
+	(wire
+		(pts
+			(xy 339.09 142.24) (xy 341.63 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9424,6 +9352,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 158.75) (xy 377.19 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099c3af9-df9e-4475-9bbc-e2f03a37c2ed")
+	)
+	(wire
+		(pts
 			(xy 358.14 34.29) (xy 358.14 29.21)
 		)
 		(stroke
@@ -9441,6 +9379,36 @@
 			(type default)
 		)
 		(uuid "0a7c46f2-8ffd-4999-89a8-961b5b09ae4b")
+	)
+	(wire
+		(pts
+			(xy 393.7 146.05) (xy 400.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b402860-69f0-45be-bcd1-e5266bad2388")
+	)
+	(wire
+		(pts
+			(xy 433.07 148.59) (xy 450.85 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5771ec-0783-403e-9671-6b6e0d0b9f56")
+	)
+	(wire
+		(pts
+			(xy 471.17 151.13) (xy 471.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c599067-4d31-457e-950d-3afc6c05e3d8")
 	)
 	(wire
 		(pts
@@ -9464,7 +9432,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 129.54 90.17)
+			(xy 127 91.44) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9544,6 +9512,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 166.37) (xy 433.07 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "144a72b3-bb1e-4207-9692-978bf4ba1146")
+	)
+	(wire
+		(pts
 			(xy 128.27 40.64) (xy 134.62 40.64)
 		)
 		(stroke
@@ -9564,6 +9542,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 163.83) (xy 377.19 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16526df8-41ed-4b11-b5f0-6179e45bb150")
+	)
+	(wire
+		(pts
 			(xy 250.19 163.83) (xy 224.79 163.83)
 		)
 		(stroke
@@ -9571,6 +9559,26 @@
 			(type default)
 		)
 		(uuid "178c0536-d5cb-402b-bdf2-f4b6df74121b")
+	)
+	(wire
+		(pts
+			(xy 389.89 146.05) (xy 393.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d874f5-2c77-4f49-9bed-f7730927ae2a")
+	)
+	(wire
+		(pts
+			(xy 453.39 184.15) (xy 453.39 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a173721-2b82-49eb-a3d7-5492b1793c2a")
 	)
 	(wire
 		(pts
@@ -9634,7 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 144.78) (xy 421.64 144.78)
+			(xy 347.98 144.78) (xy 350.52 144.78)
 		)
 		(stroke
 			(width 0)
@@ -9644,7 +9652,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 121.92) (xy 213.36 121.92)
+			(xy 217.17 121.92) (xy 213.36 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9744,6 +9752,16 @@
 	)
 	(wire
 		(pts
+			(xy 471.17 163.83) (xy 471.17 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2860a392-7d5e-47bb-a912-cfda55901075")
+	)
+	(wire
+		(pts
 			(xy 52.07 24.13) (xy 20.32 24.13)
 		)
 		(stroke
@@ -9751,6 +9769,16 @@
 			(type default)
 		)
 		(uuid "29a006f5-b76f-42eb-aacc-15fc6d8ad1ec")
+	)
+	(wire
+		(pts
+			(xy 384.81 158.75) (xy 400.05 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b87e4a0-cd7c-470e-8589-f7a80a0e20b7")
 	)
 	(wire
 		(pts
@@ -9944,6 +9972,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 138.43) (xy 459.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9db6dd-0570-4373-afc7-c1d8a089ec95")
+	)
+	(wire
+		(pts
 			(xy 57.15 102.87) (xy 59.69 102.87)
 		)
 		(stroke
@@ -9981,6 +10019,26 @@
 			(type default)
 		)
 		(uuid "443908b3-4c9b-4cb8-aa3c-faeb86ca8efe")
+	)
+	(wire
+		(pts
+			(xy 471.17 148.59) (xy 471.17 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44534ce0-ec49-4939-99d5-77ce72064298")
+	)
+	(wire
+		(pts
+			(xy 400.05 148.59) (xy 379.73 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44bf9594-49ea-4c17-84c6-e16906e3acad")
 	)
 	(wire
 		(pts
@@ -10044,6 +10102,16 @@
 	)
 	(wire
 		(pts
+			(xy 412.75 139.7) (xy 416.56 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46cc7b6e-1a33-4345-9432-3d549feeda04")
+	)
+	(wire
+		(pts
 			(xy 39.37 27.94) (xy 41.91 27.94)
 		)
 		(stroke
@@ -10054,7 +10122,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 90.17) (xy 119.38 96.52)
+			(xy 119.38 91.44) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10274,6 +10342,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 142.24) (xy 440.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5906f758-a5bd-45f2-a8f9-53350fcb3c6b")
+	)
+	(wire
+		(pts
 			(xy 137.16 125.73) (xy 146.05 125.73)
 		)
 		(stroke
@@ -10281,6 +10359,16 @@
 			(type default)
 		)
 		(uuid "5a0acba3-51fb-4776-9abf-43f70a5186e9")
+	)
+	(wire
+		(pts
+			(xy 433.07 153.67) (xy 471.17 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aecf2cd-6f94-41db-8a3a-be5e5de19dc6")
 	)
 	(wire
 		(pts
@@ -10294,6 +10382,26 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 151.13) (xy 450.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7438ec-f247-4764-b6bf-d8d5fa57860f")
+	)
+	(wire
+		(pts
+			(xy 372.11 148.59) (xy 372.11 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d995e1c-0c5c-422c-a277-4ca1c4fa1b27")
+	)
+	(wire
+		(pts
 			(xy 288.29 118.11) (xy 284.48 118.11)
 		)
 		(stroke
@@ -10301,6 +10409,16 @@
 			(type default)
 		)
 		(uuid "5f397c6b-ebea-4d9b-abf5-8a65a6429fb7")
+	)
+	(wire
+		(pts
+			(xy 467.36 163.83) (xy 471.17 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5b18c7-7ed2-446d-8421-fbe166dcc8c0")
 	)
 	(wire
 		(pts
@@ -10444,6 +10562,16 @@
 	)
 	(wire
 		(pts
+			(xy 455.93 166.37) (xy 471.17 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a92c21a-68be-4d8d-b099-0ce57f30764a")
+	)
+	(wire
+		(pts
 			(xy 46.99 125.73) (xy 44.45 125.73)
 		)
 		(stroke
@@ -10461,6 +10589,16 @@
 			(type default)
 		)
 		(uuid "6e454745-a658-46fa-8ed6-3fd2fcc82791")
+	)
+	(wire
+		(pts
+			(xy 377.19 184.15) (xy 453.39 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f236650-f824-4f36-9582-778001f5b4a5")
 	)
 	(wire
 		(pts
@@ -10574,17 +10712,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 149.86) (xy 346.71 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d130fe-84a8-4c1b-989d-0b27a001afc3")
-	)
-	(wire
-		(pts
-			(xy 403.86 173.99) (xy 407.67 173.99)
+			(xy 332.74 173.99) (xy 336.55 173.99)
 		)
 		(stroke
 			(width 0)
@@ -10624,16 +10752,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 162.56) (xy 350.52 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db73370-898b-4895-bcc4-fef4abbfd68f")
-	)
-	(wire
-		(pts
 			(xy 209.55 21.59) (xy 212.09 21.59)
 		)
 		(stroke
@@ -10644,23 +10762,23 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 152.4) (xy 346.71 152.4)
+			(xy 433.07 163.83) (xy 459.74 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e4ef99b-3699-490b-84eb-07eb87ae54f5")
+		(uuid "7fea0516-7f4c-4385-a473-8ee5a9badb31")
 	)
 	(wire
 		(pts
-			(xy 349.25 162.56) (xy 349.25 170.18)
+			(xy 416.56 139.7) (xy 416.56 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83222143-6323-428a-a139-ca8785ef86b3")
+		(uuid "7ffdf465-86e1-4041-939f-defa3ec2d67e")
 	)
 	(wire
 		(pts
@@ -10671,6 +10789,16 @@
 			(type default)
 		)
 		(uuid "8390a971-4ac1-4de6-95ea-88bb8cb37d5c")
+	)
+	(wire
+		(pts
+			(xy 433.07 142.24) (xy 433.07 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "842524ba-e351-42e2-a6c5-038e30c42e2c")
 	)
 	(wire
 		(pts
@@ -10694,23 +10822,13 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 168.91) (xy 396.24 173.99)
+			(xy 325.12 168.91) (xy 325.12 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8b4114b1-f547-4795-9e92-3865592a7e85")
-	)
-	(wire
-		(pts
-			(xy 363.22 157.48) (xy 358.14 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc9d5dd-695e-4f10-a349-f219674c89e1")
 	)
 	(wire
 		(pts
@@ -10754,6 +10872,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 146.05) (xy 389.89 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f125547-2529-46bf-8782-a36b71c67f04")
+	)
+	(wire
+		(pts
 			(xy 320.04 107.95) (xy 320.04 111.76)
 		)
 		(stroke
@@ -10794,7 +10922,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 176.53) (xy 407.67 176.53)
+			(xy 334.01 176.53) (xy 336.55 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10874,6 +11002,26 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 146.05) (xy 439.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a083b35c-4823-48df-9469-532f0c8d32d0")
+	)
+	(wire
+		(pts
+			(xy 458.47 151.13) (xy 471.17 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10c5aa0-6b39-41d6-aa59-28e865b1d32f")
+	)
+	(wire
+		(pts
 			(xy 254 121.92) (xy 303.53 121.92)
 		)
 		(stroke
@@ -10914,6 +11062,26 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 181.61) (xy 377.19 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf73ec5-136b-4563-8dbd-3e185e898c33")
+	)
+	(wire
+		(pts
+			(xy 459.74 138.43) (xy 459.74 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac956121-23de-49a9-b519-bcdc011bb10d")
+	)
+	(wire
+		(pts
 			(xy 326.39 67.31) (xy 326.39 73.66)
 		)
 		(stroke
@@ -10934,6 +11102,16 @@
 	)
 	(wire
 		(pts
+			(xy 471.17 153.67) (xy 471.17 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "addf5eb5-7702-4dc2-b59a-0402854b820a")
+	)
+	(wire
+		(pts
 			(xy 80.01 127) (xy 80.01 129.54)
 		)
 		(stroke
@@ -10941,16 +11119,6 @@
 			(type default)
 		)
 		(uuid "ade743a5-a001-46c5-bf12-91c968e87d41")
-	)
-	(wire
-		(pts
-			(xy 345.44 157.48) (xy 358.14 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae1148f5-b38b-42e9-9e28-30862c7abcd0")
 	)
 	(wire
 		(pts
@@ -11144,17 +11312,17 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 152.4) (xy 337.82 152.4)
+			(xy 400.05 161.29) (xy 400.05 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcc66cc5-3554-4d32-a511-71be7c853815")
+		(uuid "bac22a9a-46b9-4668-99d0-87a16504774d")
 	)
 	(wire
 		(pts
-			(xy 396.24 168.91) (xy 398.78 168.91)
+			(xy 325.12 168.91) (xy 327.66 168.91)
 		)
 		(stroke
 			(width 0)
@@ -11241,6 +11409,26 @@
 			(type default)
 		)
 		(uuid "c8015958-6732-47e9-af64-f6dba2bbe098")
+	)
+	(wire
+		(pts
+			(xy 389.89 146.05) (xy 389.89 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c068d4-bcb6-4466-9fe5-97541075f7d0")
+	)
+	(wire
+		(pts
+			(xy 458.47 148.59) (xy 471.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca32d450-cf49-4185-8b81-2ceebccaa524")
 	)
 	(wire
 		(pts
@@ -11354,6 +11542,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 163.83) (xy 400.05 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d91774-f8d5-4c2d-a210-b2f515556bd6")
+	)
+	(wire
+		(pts
 			(xy 309.88 71.12) (xy 275.59 71.12)
 		)
 		(stroke
@@ -11371,6 +11569,16 @@
 			(type default)
 		)
 		(uuid "d7c8d7fb-d416-4137-bfaa-d0014c65d867")
+	)
+	(wire
+		(pts
+			(xy 453.39 166.37) (xy 455.93 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fe757b-de6b-4a18-91e2-1cb794ba403f")
 	)
 	(wire
 		(pts
@@ -11584,6 +11792,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 184.15) (xy 377.19 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1ca3e5-7249-445d-b32b-19a22817fe7a")
+	)
+	(wire
+		(pts
 			(xy 347.98 67.31) (xy 326.39 67.31)
 		)
 		(stroke
@@ -11614,7 +11832,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 144.78) (xy 419.1 144.78)
+			(xy 339.09 144.78) (xy 347.98 144.78)
 		)
 		(stroke
 			(width 0)
@@ -11651,16 +11869,6 @@
 			(type default)
 		)
 		(uuid "f4fc3989-c3a8-49da-87df-41099e0d0262")
-	)
-	(wire
-		(pts
-			(xy 363.22 147.32) (xy 363.22 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f69261c9-c081-4eba-b5e9-dd9b4e3caf47")
 	)
 	(wire
 		(pts
@@ -11704,16 +11912,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 152.4) (xy 337.82 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ff6880-4efd-4324-9521-dc6ca7b27410")
-	)
-	(wire
-		(pts
 			(xy 236.22 158.75) (xy 229.87 158.75)
 		)
 		(stroke
@@ -11721,16 +11919,6 @@
 			(type default)
 		)
 		(uuid "fb181196-ce95-4050-8a74-28f7ed06274e")
-	)
-	(wire
-		(pts
-			(xy 346.71 147.32) (xy 363.22 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb95fe30-1d7d-4ff3-8c1b-32a9d657c829")
 	)
 	(wire
 		(pts
@@ -11916,30 +12104,6 @@
 			)
 		)
 	)
-	(global_label "STM32_PB7"
-		(shape input)
-		(at 187.96 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b3d285f-90fb-4c6d-a12e-5eab0c906fa9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7098 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SENSOR_SCL"
 		(shape input)
 		(at 250.19 161.29 180)
@@ -11964,9 +12128,9 @@
 			)
 		)
 	)
-	(global_label "STM32_PB7"
+	(global_label "USB_DN"
 		(shape input)
-		(at 283.21 59.69 0)
+		(at 187.96 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11974,9 +12138,33 @@
 			)
 			(justify left)
 		)
-		(uuid "3b1cc532-65ab-45f7-af0b-ce1df850a8fe")
+		(uuid "37adf85d-a56d-47f6-9736-fd53b54153c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.9598 59.69 0)
+			(at 198.3233 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_DP"
+		(shape input)
+		(at 72.39 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cde95d1-5f43-4fdd-af82-4b5a425a8802")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.6928 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12038,7 +12226,7 @@
 	)
 	(global_label "IMU_INT1"
 		(shape input)
-		(at 187.96 88.9 0)
+		(at 187.96 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12048,7 +12236,7 @@
 		)
 		(uuid "49d24a75-1c39-4699-a679-af133ae68d58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.4119 88.9 0)
+			(at 199.4119 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12156,6 +12344,30 @@
 			)
 		)
 	)
+	(global_label "USB_DP"
+		(shape input)
+		(at 187.96 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55c309b9-b831-47f9-90fd-b21d5a57856f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.2628 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SENSOR_SDO"
 		(shape input)
 		(at 187.96 96.52 0)
@@ -12249,6 +12461,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BATT_SW+"
+		(shape input)
+		(at 386.08 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6894a2a2-f963-4599-98f0-d53735dab596")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 386.08 176.3099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12492,30 +12728,6 @@
 			)
 		)
 	)
-	(global_label "BATT_SW+"
-		(shape input)
-		(at 335.28 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e64fe25-03d2-4a81-b969-591f7f49487f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.8001 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "STM32_PC4_5.5V"
 		(shape input)
 		(at 381 128.27 0)
@@ -12588,9 +12800,33 @@
 			)
 		)
 	)
+	(global_label "USB_DN"
+		(shape input)
+		(at 72.39 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6c03c9b-af80-444e-85e3-c56d90dd4989")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.7533 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "IMU_INT2"
 		(shape input)
-		(at 187.96 91.44 0)
+		(at 187.96 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12600,7 +12836,7 @@
 		)
 		(uuid "b7230285-3933-4949-a857-e0c1426de130")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.4119 91.44 0)
+			(at 199.4119 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12638,7 +12874,7 @@
 	)
 	(global_label "STM32_USB_VBUS"
 		(shape input)
-		(at 187.96 78.74 0)
+		(at 187.96 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12648,7 +12884,7 @@
 		)
 		(uuid "c8972e5f-b5cd-4596-acb3-4cae8347a09b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.6365 78.74 0)
+			(at 207.6365 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12662,7 +12898,7 @@
 	)
 	(global_label "IMU_CS"
 		(shape input)
-		(at 187.96 86.36 0)
+		(at 187.96 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12672,7 +12908,7 @@
 		)
 		(uuid "cf8a55d6-272e-4703-926c-5d1ba67c98d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.779 86.36 0)
+			(at 197.779 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +13090,7 @@
 	)
 	(global_label "BATT_SW+"
 		(shape input)
-		(at 421.64 144.78 0)
+		(at 350.52 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12864,7 +13100,7 @@
 		)
 		(uuid "fe319dd0-4c05-41e5-8971-8401369e87ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 434.1199 144.78 0)
+			(at 362.9999 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13054,6 +13290,83 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "029f76c1-3439-41ab-8489-f1e549da89e5")
+		(property "Reference" "#PWR088"
+			(at 231.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.696 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3bdf945-f222-42cc-80da-583cb77466f1")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -13456,7 +13769,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:MLT-5020")
-		(at 411.48 176.53 0)
+		(at 340.36 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13466,7 +13779,7 @@
 		(dnp no)
 		(uuid "0b4c2b3d-b55b-445f-be8a-d43059cde676")
 		(property "Reference" "BUZZER2"
-			(at 418.846 170.688 90)
+			(at 347.726 170.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13477,7 +13790,7 @@
 			)
 		)
 		(property "Value" "MLT-5020"
-			(at 416.306 170.688 90)
+			(at 345.186 170.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13488,7 +13801,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:BUZ-SMD_L5.0-W5.5-P4.60"
-			(at 411.48 187.96 0)
+			(at 340.36 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13499,7 +13812,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Buzzers_MLT-5020_C94598.html"
-			(at 411.48 190.5 0)
+			(at 340.36 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13510,7 +13823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 411.48 176.53 0)
+			(at 340.36 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13521,7 +13834,7 @@
 			)
 		)
 		(property "Manufacturer" "华能"
-			(at 411.48 193.04 0)
+			(at 340.36 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13532,7 +13845,7 @@
 			)
 		)
 		(property "MPN" "MLT-5020"
-			(at 411.48 195.58 0)
+			(at 340.36 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13543,7 +13856,7 @@
 			)
 		)
 		(property "LCSC Part" "C94598"
-			(at 411.48 198.12 0)
+			(at 340.36 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13960,7 +14273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 92.71 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14007,6 +14320,84 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 400.05 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f7cf2a1-5efa-43e0-a61a-002bd40d6ce4")
+		(property "Reference" "TP86"
+			(at 388.62 156.464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_SOA"
+			(at 395.478 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 400.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 400.05 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06c86857-fcd5-4834-9cd2-d3e5c2846d9a")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 419.1 33.02 180)
 		(unit 1)
 		(body_style 1)
@@ -14038,7 +14429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 414.02 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14203,6 +14594,239 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 55.88 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10d4eba2-6c1b-4757-bef8-11652b45c9c0")
+		(property "Reference" "TP90"
+			(at 199.898 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INLA"
+			(at 192.532 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a27205e5-8b9b-42a2-b84a-9ec3ee4289ed")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "122d22b7-8210-4973-a90e-a9403cb7eee1")
+		(property "Reference" "TP91"
+			(at 125.222 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_nSleep"
+			(at 135.128 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 139.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef124072-8f76-4720-8fb9-76f50159aeaa")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12581065-faa6-41b1-920e-ada36b77c2b7")
+		(property "Reference" "#PWR052"
+			(at 97.79 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.838 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbc547de-f05e-4609-ba66-2e3eadb3314d")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -15069,83 +15693,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 358.14 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1fd0d135-d66f-45ac-ad2a-54330374b6e6")
-		(property "Reference" "#PWR079"
-			(at 358.14 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 358.14 171.704 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 358.14 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0115be54-f8c9-42c9-a73a-a796268fd0c0")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 187.96 63.5 270)
 		(unit 1)
@@ -15299,6 +15846,343 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:DRV8311HRRWR")
+		(at 416.56 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "215088d3-8d73-4971-bcee-fbcd1c2f03f7")
+		(property "Reference" "U7"
+			(at 416.814 177.546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8311HRRWR"
+			(at 416.306 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-24_L3.0-W3.0-P0.40-TL-EP1.9_TI_RRW0024A"
+			(at 416.56 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5218862.pdf"
+			(at 416.56 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 416.56 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 416.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DRV8311HRRWR"
+			(at 416.56 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5218862"
+			(at 416.56 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f180b4d5-6f48-4304-a7ec-33f23a79c1db")
+		)
+		(pin "3"
+			(uuid "86a0ca79-2bee-43e0-80ce-d8a901181541")
+		)
+		(pin "6"
+			(uuid "e660e7e3-f439-4c3c-870d-b267a6fc3440")
+		)
+		(pin "9"
+			(uuid "b3c9ba7d-c516-411e-9c1a-243e8a3cf517")
+		)
+		(pin "4"
+			(uuid "7fd85c5b-a174-4124-b777-4e33e3477dba")
+		)
+		(pin "8"
+			(uuid "84f67570-9ac1-4a53-b875-50a6a347720c")
+		)
+		(pin "19"
+			(uuid "452325d9-a3d3-4d28-923a-0f8f443cc916")
+		)
+		(pin "14"
+			(uuid "e6241548-842f-492a-92c4-40354074a711")
+		)
+		(pin "2"
+			(uuid "63dd4118-cfc8-463e-9884-8fe9e5f5c725")
+		)
+		(pin "5"
+			(uuid "4da3be3a-566d-40db-8985-9aa608f69f6c")
+		)
+		(pin "7"
+			(uuid "a51e1d84-8084-4e3b-8202-b0b7dbc0299a")
+		)
+		(pin "11"
+			(uuid "5d44c874-70c3-4d4e-8785-1eddcbdaa289")
+		)
+		(pin "12"
+			(uuid "1117563b-fcc3-43d2-a8ef-f0ae1bb6c1a4")
+		)
+		(pin "13"
+			(uuid "0d5ed5b4-f3f2-4bd4-bf4b-e9177028d6a1")
+		)
+		(pin "16"
+			(uuid "0fae2868-0f68-4529-9380-5ec829a18e1a")
+		)
+		(pin "10"
+			(uuid "222bcd65-fe30-4a1b-a4c6-02411c94b7a3")
+		)
+		(pin "17"
+			(uuid "1fefbe58-d497-4523-8128-d5e798103c46")
+		)
+		(pin "15"
+			(uuid "a14c8e13-c169-4195-a708-54c49745164c")
+		)
+		(pin "18"
+			(uuid "b7d182ea-22b5-4285-b0d7-42a2bc904a5c")
+		)
+		(pin "23"
+			(uuid "0a4099d9-1e77-4e9a-acd3-4f5f68cd806d")
+		)
+		(pin "25"
+			(uuid "b65c747a-434d-47b6-9073-250fc8bdfa8a")
+		)
+		(pin "20"
+			(uuid "c8b6b547-dc87-454d-b1f4-64fe9f002126")
+		)
+		(pin "21"
+			(uuid "cf32636d-fbb2-4ede-a6b6-c018d76a97c3")
+		)
+		(pin "22"
+			(uuid "dc619bb3-cf73-4188-9a22-ec346aff388e")
+		)
+		(pin "24"
+			(uuid "ce9c8f8a-7ce8-4a3d-826b-212692a65f69")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 433.07 158.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2158f315-46a1-43fc-93c4-6ba871452031")
+		(property "Reference" "TP97"
+			(at 445.008 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INLB"
+			(at 437.642 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 433.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 433.07 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "152674b1-9046-4f54-b134-0251701f2289")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 332.74 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21b93134-df8c-4a46-874d-7422cbcb1784")
+		(property "Reference" "#PWR0113"
+			(at 332.74 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 332.74 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 332.74 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ccdb1a1-f6bd-4cbd-b312-19ccf7c81df6")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -15736,7 +16620,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 412.75 142.24 270)
+		(at 341.63 142.24 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15746,7 +16630,7 @@
 		(dnp no)
 		(uuid "25e95d07-0780-40ca-8987-1bc349738908")
 		(property "Reference" "TP32"
-			(at 424.688 142.24 90)
+			(at 353.568 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15757,7 +16641,7 @@
 			)
 		)
 		(property "Value" "Servo1"
-			(at 417.322 142.24 90)
+			(at 346.202 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15768,7 +16652,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 412.75 147.32 0)
+			(at 341.63 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15779,7 +16663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 147.32 0)
+			(at 341.63 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15790,7 +16674,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 412.75 142.24 0)
+			(at 341.63 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15890,8 +16774,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 187.96 71.12 270)
+		(lib_id "power:+3.3V")
+		(at 381 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15899,31 +16783,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "27f3df10-7aa4-442d-a93a-c2c5cfb98a91")
-		(property "Reference" "TP25"
-			(at 200.406 70.866 90)
+		(uuid "2973630b-660b-403c-9078-c9911f3be331")
+		(property "Reference" "#PWR0114"
+			(at 381 149.86 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "USB_DP"
-			(at 192.532 70.866 90)
+		(property "Value" "+3.3V"
+			(at 376.936 144.272 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 187.96 76.2 0)
+		(property "Footprint" ""
+			(at 381 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15934,7 +16817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 76.2 0)
+			(at 381 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15944,8 +16827,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 187.96 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 381 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15956,12 +16839,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "10ee38bb-cfd0-4460-9b74-04256960c890")
+			(uuid "982c08c2-7fa3-4250-ae8c-c26dcfb185d7")
 		)
 		(instances
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP25")
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29a0b894-f3c8-47d7-84c7-4eb082d70471")
+		(property "Reference" "TP93"
+			(at 199.898 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INHC"
+			(at 192.532 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eee4f245-03cf-4a2d-985d-28678b4744d7")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP93")
 					(unit 1)
 				)
 			)
@@ -16752,7 +17713,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 90.17 0)
+		(at 129.54 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16762,7 +17723,7 @@
 		(dnp no)
 		(uuid "3459ec6c-91f2-4038-9a78-a47023fbfca3")
 		(property "Reference" "#PWR066"
-			(at 129.54 93.98 0)
+			(at 129.54 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16773,7 +17734,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 125.984 87.63 0)
+			(at 125.984 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16783,7 +17744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 90.17 0)
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16794,7 +17755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 90.17 0)
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16805,7 +17766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 90.17 0)
+			(at 129.54 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16900,6 +17861,87 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 377.19 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36a8ac71-f27f-4f83-8c8a-d5b2028c715f")
+		(property "Reference" "C70"
+			(at 378.46 168.402 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 380.746 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 378.1552 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 377.19 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf4a631b-7d6b-4c88-9bda-258a77612bed")
+		)
+		(pin "2"
+			(uuid "1e73e75b-dec9-41fd-8ecc-e8bc9e8a91e0")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -17300,6 +18342,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 463.55 163.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e3f0a56-a37f-4668-bfd6-20374f14c061")
+		(property "Reference" "C73"
+			(at 465.328 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 461.264 167.386 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 459.74 164.7952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 463.55 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 463.55 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1900aae-3dab-42f8-a34f-80a3de775d34")
+		)
+		(pin "2"
+			(uuid "5d57ee72-ee07-431c-953a-ca9a778b43dc")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 353.06 95.25 0)
 		(unit 1)
@@ -17548,7 +18671,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 400.05 173.99 90)
+		(at 328.93 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17558,7 +18681,7 @@
 		(dnp no)
 		(uuid "434bc4f6-6a66-40b7-a8fe-b0771c1240e1")
 		(property "Reference" "R27"
-			(at 401.574 171.704 90)
+			(at 330.454 171.704 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17569,7 +18692,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 402.59 173.99 90)
+			(at 330.962 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17580,7 +18703,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 400.05 175.768 90)
+			(at 328.93 175.768 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17591,7 +18714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 400.05 173.99 0)
+			(at 328.93 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17602,7 +18725,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 400.05 173.99 0)
+			(at 328.93 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17700,6 +18823,85 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "TP65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 454.66 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43e88c25-67a5-49df-a9e9-f86b14c4ffee")
+		(property "Reference" "R35"
+			(at 455.422 146.558 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 454.66 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 454.66 146.812 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 454.66 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 454.66 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9011dfb-8ea4-4857-81a1-82e83cb8b760")
+		)
+		(pin "2"
+			(uuid "8f5d7669-f0a6-476e-8536-9dade1fc21d7")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -18221,6 +19423,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 400.05 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47065b4e-f928-4495-93a1-6376fe204e2b")
+		(property "Reference" "#PWR0115"
+			(at 393.7 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 395.986 165.354 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 400.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 400.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a321ce6-9cc8-477b-a183-f28bd6886c0b")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SKRPACE010")
 		(at 228.6 22.86 0)
 		(unit 1)
@@ -18333,6 +19612,84 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 283.21 59.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48d7500f-55e1-4a81-b77e-af2e7c51be5b")
+		(property "Reference" "TP76"
+			(at 295.148 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STATUS"
+			(at 287.782 59.69 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 283.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 283.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 283.21 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96220c01-5e67-4e72-8df8-5d55b7eb302f")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP76")
 					(unit 1)
 				)
 			)
@@ -18843,6 +20200,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 433.07 168.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4faef8f9-bbb9-4047-80d8-f16c779cc48b")
+		(property "Reference" "TP101"
+			(at 445.008 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INHA"
+			(at 437.642 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 433.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 433.07 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86244bc0-ce91-4947-b0a0-07440022cac5")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:SK6812MINI-E_C5149201")
 		(at 354.33 105.41 90)
 		(unit 1)
@@ -18957,85 +20392,6 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 351.79 152.4 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50dec6d7-8a27-428f-9966-bfe979a1affc")
-		(property "Reference" "J4"
-			(at 348.488 146.812 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 352.044 154.432 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 351.79 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 351.79 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 351.79 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b5afd0c0-d2a3-41ea-ad40-d7bc5d049afc")
-		)
-		(pin "2"
-			(uuid "663e0e95-a4be-491f-88d9-497e6d100417")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -19197,6 +20553,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 400.05 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "528ad2fb-0228-4289-a9a6-8fb587f9138b")
+		(property "Reference" "TP85"
+			(at 388.62 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_SOB"
+			(at 395.478 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 400.05 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 400.05 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d6119a7-2d0c-4080-9689-e80341cd19c0")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:USBLC6-2SC6_C2687116")
 		(at 60.96 80.01 0)
 		(unit 1)
@@ -19316,6 +20750,84 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55a71781-b0d2-488f-b1a9-9925279b6005")
+		(property "Reference" "TP41"
+			(at 199.898 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INLC"
+			(at 192.532 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5961970f-1b85-4f37-8120-43baa6f4ec96")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -20109,7 +21621,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 72.39 82.55 270)
+		(at 187.96 53.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20117,9 +21629,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6cc83984-3f18-44a4-bfb5-75634df59a18")
-		(property "Reference" "TP23"
-			(at 84.836 82.55 90)
+		(uuid "6cf38a19-87ee-4286-985f-188c52b91bd2")
+		(property "Reference" "TP42"
+			(at 199.898 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20129,8 +21641,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_DP"
-			(at 76.962 82.55 90)
+		(property "Value" "M_INLB"
+			(at 192.532 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20141,7 +21653,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 72.39 87.63 0)
+			(at 187.96 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20152,7 +21664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 87.63 0)
+			(at 187.96 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20163,7 +21675,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 72.39 82.55 0)
+			(at 187.96 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20174,12 +21686,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "12a3bbeb-328b-44b1-b8f2-f4640f095712")
+			(uuid "3e717cf4-3355-4921-b314-387feb986074")
 		)
 		(instances
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP23")
+					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 97.79 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d7c0961-a6ab-4833-bfe8-6d77f4b76019")
+		(property "Reference" "TP79"
+			(at 95.25 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND INPUT"
+			(at 91.44 124.206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 102.87 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.79 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce0f223c-f7e3-4d97-9d99-f19043e03078")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP79")
 					(unit 1)
 				)
 			)
@@ -20218,7 +21808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 303.53 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -20789,6 +22379,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 377.19 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74586e43-f031-45f8-ac6b-05066310bc07")
+		(property "Reference" "C72"
+			(at 378.46 176.022 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 380.746 180.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 378.1552 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 377.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "098d2233-8d4c-4e5a-b7f0-dabe2a7c09ce")
+		)
+		(pin "2"
+			(uuid "0777f1c6-8370-423d-9f67-3864c279ba3b")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 71.12 0)
 		(unit 1)
@@ -20868,6 +22539,84 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 433.07 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75adef6a-841b-449f-9060-4edf93d8b8fd")
+		(property "Reference" "TP99"
+			(at 445.008 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INHC"
+			(at 437.642 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 433.07 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 433.07 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab72dad1-60f5-4e45-84e9-2ba1bc778384")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 427.99 115.57 180)
 		(unit 1)
 		(body_style 1)
@@ -20939,6 +22688,84 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "TP69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 400.05 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "797934fd-6697-46a0-85d6-40c7859ab0dc")
+		(property "Reference" "TP87"
+			(at 393.954 167.132 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MotorA"
+			(at 395.986 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 400.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 400.05 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e361d370-97a1-4baa-bbb3-1e624c199da6")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP87")
 					(unit 1)
 				)
 			)
@@ -21266,7 +23093,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 205.74 81.28 270)
+		(at 400.05 173.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21274,9 +23101,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7bb2d8a6-cb44-4427-a731-9a80525f4a67")
-		(property "Reference" "TP42"
-			(at 221.996 81.026 90)
+		(uuid "7c984022-078d-47ec-9bac-9775fc942ae7")
+		(property "Reference" "TP89"
+			(at 394.716 176.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21286,8 +23113,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32_GND"
-			(at 210.312 81.026 90)
+		(property "Value" "MotorC"
+			(at 395.986 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21298,7 +23125,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 205.74 86.36 0)
+			(at 400.05 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21309,7 +23136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 86.36 0)
+			(at 400.05 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21320,7 +23147,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 205.74 81.28 0)
+			(at 400.05 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21331,12 +23158,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "90bcc973-8686-4dd0-85e6-2459e8083f53")
+			(uuid "5cc84768-978b-41d2-ad7b-df75ff81e6e7")
 		)
 		(instances
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP42")
+					(reference "TP89")
 					(unit 1)
 				)
 			)
@@ -21344,7 +23171,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 410.21 147.32 0)
+		(at 339.09 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21354,7 +23181,7 @@
 		(dnp no)
 		(uuid "7d0605ee-692f-45aa-a625-304c058f3afa")
 		(property "Reference" "#PWR0112"
-			(at 410.21 153.67 0)
+			(at 339.09 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21365,7 +23192,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 407.416 150.876 0)
+			(at 336.296 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21375,7 +23202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 147.32 0)
+			(at 339.09 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21386,7 +23213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 147.32 0)
+			(at 339.09 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21397,7 +23224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 410.21 147.32 0)
+			(at 339.09 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21414,6 +23241,83 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 455.93 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d428491-a777-47a0-861c-c7a65fd5f30a")
+		(property "Reference" "#PWR0116"
+			(at 455.93 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 458.47 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 455.93 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 455.93 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 455.93 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "030b7335-03a3-4388-8754-c6187a71f8a4")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -21501,8 +23405,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 405.13 176.53 0)
+		(lib_id "Connector:TestPoint")
+		(at 400.05 151.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21510,30 +23414,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8210bce0-c58f-4488-80d6-6fb4e28a4c32")
-		(property "Reference" "#PWR086"
-			(at 405.13 182.88 0)
-			(hide yes)
+		(uuid "7faf9c6f-0207-464a-8e89-8a64dcc85aa1")
+		(property "Reference" "TP84"
+			(at 388.62 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 405.13 180.594 0)
+		(property "Value" "M_SOC"
+			(at 395.478 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 405.13 176.53 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 400.05 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21544,7 +23449,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 405.13 176.53 0)
+			(at 400.05 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 400.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8c0e3ff-39da-4652-9ba8-3712bb5cfde4")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8210bce0-c58f-4488-80d6-6fb4e28a4c32")
+		(property "Reference" "#PWR086"
+			(at 334.01 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 180.594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21555,7 +23537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 405.13 176.53 0)
+			(at 334.01 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21656,7 +23638,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 419.1 148.59 180)
+		(at 347.98 148.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21666,7 +23648,7 @@
 		(dnp no)
 		(uuid "854c4dbe-a0f6-4c55-9ef6-4e61ef37c096")
 		(property "Reference" "C49"
-			(at 418.338 150.876 0)
+			(at 347.218 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21677,7 +23659,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 418.338 146.304 0)
+			(at 347.218 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21688,7 +23670,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 418.1348 144.78 0)
+			(at 347.0148 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21699,7 +23681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 419.1 148.59 0)
+			(at 347.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21710,7 +23692,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 419.1 148.59 0)
+			(at 347.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21807,84 +23789,6 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 341.63 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "868449dd-373e-497c-8cd7-6203a1a1c3bf")
-		(property "Reference" "TP30"
-			(at 329.692 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor1"
-			(at 337.058 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 341.63 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 341.63 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 341.63 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce0afd24-dadd-4f44-af43-c3d96fdb3607")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP30")
 					(unit 1)
 				)
 			)
@@ -22124,6 +24028,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 400.05 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c6d5217-8bba-4449-9cf6-38c97e01b493")
+		(property "Reference" "TP88"
+			(at 388.62 172.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MotorB"
+			(at 395.986 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 400.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 400.05 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60755de1-7798-4837-a580-6a74e91fc4ac")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 284.48 118.11 0)
 		(unit 1)
@@ -22280,6 +24262,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8daaadad-549d-4cd0-a23e-9d9cb042defb")
+		(property "Reference" "TP83"
+			(at 128.27 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_SOA"
+			(at 135.128 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 139.7 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1c2d2f0-572e-4c78-bd8d-85a7788839b8")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 365.76 20.32 270)
 		(unit 1)
@@ -22353,85 +24413,6 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS14")
-		(at 341.63 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e4230aa-95d6-4de6-9487-059a823df0fc")
-		(property "Reference" "D1"
-			(at 344.424 156.464 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 345.694 158.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 341.63 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 341.63 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 341.63 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8148f937-c169-45b2-bfa0-b8f2c0c7523e")
-		)
-		(pin "2"
-			(uuid "ca656176-e577-43dd-b08d-d57fbfeed798")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -22594,85 +24575,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9245c0ab-abe8-43ad-a4c1-735266749d73")
-		(property "Reference" "#PWR062"
-			(at 205.74 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.296 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7dbdba0-9c97-4cca-966b-456e173b4224")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 72.39 77.47 270)
+		(at 187.96 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22680,9 +24584,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "92650428-26bf-4d76-b32a-e33ebaed3dbc")
-		(property "Reference" "TP22"
-			(at 84.836 77.47 90)
+		(uuid "924f3c1a-b208-4514-88d0-155011f8dd7b")
+		(property "Reference" "TP75"
+			(at 199.898 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22692,8 +24596,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_DN"
-			(at 76.708 77.47 90)
+		(property "Value" "STATUS"
+			(at 192.532 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22704,7 +24608,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 72.39 82.55 0)
+			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22715,7 +24619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 82.55 0)
+			(at 187.96 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22726,7 +24630,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 72.39 77.47 0)
+			(at 187.96 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22737,12 +24641,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "18d5c0a3-7cda-455c-ba2b-a5fb31df17fa")
+			(uuid "34c99a34-cabd-4e68-9391-81f15a9f8dfa")
 		)
 		(instances
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP22")
+					(reference "TP75")
 					(unit 1)
 				)
 			)
@@ -22820,84 +24724,6 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 332.74 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9887da69-1408-47ac-a74b-4e02512dd3f7")
-		(property "Reference" "TP57"
-			(at 331.47 89.916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V"
-			(at 333.756 91.948 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 337.82 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 332.74 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b8a38f7-5636-4ad0-896c-a78674ee5ebe")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP57")
 					(unit 1)
 				)
 			)
@@ -23375,6 +25201,84 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 187.96 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f977961-b956-4514-b517-84e8fde9bb89")
+		(property "Reference" "TP95"
+			(at 199.898 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INHA"
+			(at 192.532 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc2af74b-e71d-49e8-944f-86e960e513d7")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 355.6 115.57 180)
 		(unit 1)
 		(body_style 1)
@@ -23526,6 +25430,84 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a13c25e9-b949-4f4b-b50d-ad1531f2c77e")
+		(property "Reference" "TP57"
+			(at 128.27 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_SOC"
+			(at 135.128 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a330fc0-382a-4500-a1ce-f8415e046369")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP57")
 					(unit 1)
 				)
 			)
@@ -23723,7 +25705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 426.72 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -23763,6 +25745,84 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "TP59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 439.42 146.05 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2b32666-7b6d-46bb-8295-0a16c1cd9b99")
+		(property "Reference" "TP92"
+			(at 448.31 144.272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_nSleep"
+			(at 443.992 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 439.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 439.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 439.42 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3309617-b521-44bc-b1aa-e353ffcb798a")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP92")
 					(unit 1)
 				)
 			)
@@ -23977,6 +26037,83 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.77 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a71ffd0f-7304-4eff-94bc-71f4935e8e8d")
+		(property "Reference" "#PWR0102"
+			(at 318.77 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.326 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de8b1f79-9788-44ae-9c49-79b781bc6331")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -24525,6 +26662,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 436.88 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aaf42464-0686-4a11-97e3-f8fd84ec2d5f")
+		(property "Reference" "R34"
+			(at 437.134 140.208 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 436.88 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 436.88 140.462 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 436.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a218310-b3a5-43b6-8026-2a8d985c9aee")
+		)
+		(pin "2"
+			(uuid "7596cc9e-5600-4094-8fa4-95ec557ffd1c")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 154.94 121.92 180)
 		(unit 1)
@@ -24764,6 +26980,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 231.14 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad45ee96-030e-4e86-9b04-95ee3e0480a1")
+		(property "Reference" "TP80"
+			(at 228.6 87.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND INPUT"
+			(at 225.806 89.916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 236.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 231.14 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "269b9f3b-1ea6-4083-ac11-4eed9af68f8d")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 93.98 270)
 		(unit 1)
@@ -24919,7 +27213,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 398.78 168.91 270)
+		(at 327.66 168.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24929,7 +27223,7 @@
 		(dnp no)
 		(uuid "b1422ca0-6800-4173-b635-247e0d6aacc7")
 		(property "Reference" "TP46"
-			(at 409.194 168.91 90)
+			(at 338.074 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24940,7 +27234,7 @@
 			)
 		)
 		(property "Value" "BUZZ"
-			(at 403.352 168.91 90)
+			(at 332.232 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24951,7 +27245,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 398.78 173.99 0)
+			(at 327.66 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24962,7 +27256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 398.78 173.99 0)
+			(at 327.66 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24973,7 +27267,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 398.78 168.91 0)
+			(at 327.66 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25410,84 +27704,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 139.7 48.26 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b55765b0-b572-4063-b26b-4434c8b00716")
-		(property "Reference" "TP31"
-			(at 127.762 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Motor1"
-			(at 135.128 48.26 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "198cef14-a110-4743-b3ce-7d6385e896b7")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 120.65 40.64 0)
 		(unit 1)
@@ -25566,7 +27782,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 223.52 92.71 0)
+		(at 219.71 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25576,7 +27792,7 @@
 		(dnp no)
 		(uuid "b89e1d34-7c38-4184-9b2a-d90e38e65bac")
 		(property "Reference" "#PWR0104"
-			(at 223.52 96.52 0)
+			(at 219.71 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25587,7 +27803,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 223.52 89.154 0)
+			(at 219.71 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25597,7 +27813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 92.71 0)
+			(at 219.71 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25608,7 +27824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 92.71 0)
+			(at 219.71 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25619,7 +27835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 92.71 0)
+			(at 219.71 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25636,94 +27852,6 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 355.6 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8b40f69-cb1d-477c-829d-bfcd2fbba3d0")
-		(property "Reference" "Q1"
-			(at 361.95 161.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 361.95 163.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 360.68 164.465 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 360.68 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 355.6 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "882dfe68-bf3b-40d2-84db-03934cbc2be6")
-		)
-		(pin "2"
-			(uuid "5931344c-830d-4ffc-9d03-b272bc85a969")
-		)
-		(pin "3"
-			(uuid "d0a4dd74-caef-42e5-ad6a-b7c8b80d207f")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -25963,7 +28091,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 419.1 152.4 0)
+		(at 347.98 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25973,7 +28101,7 @@
 		(dnp no)
 		(uuid "beb4a7a9-daf4-4dba-823c-0c2ad21e83d8")
 		(property "Reference" "#PWR084"
-			(at 419.1 158.75 0)
+			(at 347.98 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25984,7 +28112,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 423.164 155.194 0)
+			(at 352.044 155.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25994,7 +28122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 419.1 152.4 0)
+			(at 347.98 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26005,7 +28133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 419.1 152.4 0)
+			(at 347.98 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26016,7 +28144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 419.1 152.4 0)
+			(at 347.98 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26111,6 +28239,87 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "TP55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 381 158.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfd5f6ad-c79f-4c08-a5db-ee6a43cd0a0c")
+		(property "Reference" "C69"
+			(at 382.778 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 378.714 162.306 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 377.19 159.7152 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 381 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b78353f-bd33-4ffc-bd81-9c2245f4e3a5")
+		)
+		(pin "2"
+			(uuid "b205dde1-23d6-4dce-a426-126f0fa55387")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -26238,7 +28447,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 139.7 50.8 90)
+		(at 187.96 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26248,7 +28457,7 @@
 		(dnp no)
 		(uuid "c119cf99-8c9a-4f7b-a87f-1e345c2948b2")
 		(property "Reference" "TP33"
-			(at 127.762 50.8 90)
+			(at 199.898 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26259,7 +28468,7 @@
 			)
 		)
 		(property "Value" "Servo1"
-			(at 135.128 50.8 90)
+			(at 192.532 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26270,7 +28479,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 139.7 45.72 0)
+			(at 187.96 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26281,7 +28490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 45.72 0)
+			(at 187.96 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26292,7 +28501,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 139.7 50.8 0)
+			(at 187.96 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26709,8 +28918,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 341.63 170.18 0)
+		(lib_id "Device:R")
+		(at 384.81 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26718,10 +28927,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ce36c3c9-c318-4dd9-bde6-cebe565f3299")
-		(property "Reference" "#PWR078"
-			(at 341.63 176.53 0)
-			(hide yes)
+		(uuid "ce06b09a-d624-4023-a45b-29c898b5ec4b")
+		(property "Reference" "R43"
+			(at 384.81 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26730,8 +28938,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 341.63 174.244 0)
+		(property "Value" "10k"
+			(at 384.81 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26740,8 +28948,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 341.63 170.18 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 384.81 144.272 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26752,7 +28960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 170.18 0)
+			(at 384.81 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26762,8 +28970,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 170.18 0)
+		(property "Description" "Resistor"
+			(at 384.81 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26774,12 +28982,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "5704d849-9fe4-4c21-8f3d-fb23719b11ce")
+			(uuid "12cfe662-bc53-464a-9b5b-73a9b1df0f9b")
+		)
+		(pin "2"
+			(uuid "c150ee05-439e-4691-89d7-ab32803d72c7")
 		)
 		(instances
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "#PWR078")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce31f892-f5d3-4bc9-96a6-9162d3664e4c")
+		(property "Reference" "TP104"
+			(at 128.27 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_SOB"
+			(at 135.128 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca98495a-faff-4e75-adf7-070cb92faa48")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP104")
 					(unit 1)
 				)
 			)
@@ -27022,89 +29311,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 345.44 162.56 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d54a5adb-f23d-4941-a30c-f20990bf2eb9")
-		(property "Reference" "R12"
-			(at 346.964 164.592 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 347.472 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 345.44 164.338 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 345.44 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "babe152d-d9ed-4f0b-95d0-56d7b7c34d23")
-		)
-		(pin "1"
-			(uuid "bccab749-a501-45b2-b800-521689222823")
-		)
-		(instances
-			(project "LSwarm Firefly"
-				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 223.52 92.71 180)
+		(at 219.71 92.71 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27114,7 +29322,7 @@
 		(dnp no)
 		(uuid "d55e07eb-3445-494f-b579-288d7a8d86f7")
 		(property "Reference" "TP71"
-			(at 226.06 100.076 0)
+			(at 222.25 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27125,7 +29333,7 @@
 			)
 		)
 		(property "Value" "3.3V INPUT"
-			(at 229.87 98.044 0)
+			(at 226.06 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27136,7 +29344,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 218.44 92.71 0)
+			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27147,7 +29355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 92.71 0)
+			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27158,7 +29366,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 223.52 92.71 0)
+			(at 219.71 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27175,6 +29383,87 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "TP71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 375.92 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d67254dc-6178-48c8-876f-18459ba231e6")
+		(property "Reference" "C61"
+			(at 377.698 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 373.634 152.146 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 372.11 149.5552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 375.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69563543-ff57-4523-9a8d-264de0013553")
+		)
+		(pin "2"
+			(uuid "f5ee879d-e23f-4dc2-ae9f-a8abcecf6293")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -27337,7 +29626,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 410.21 142.24 90)
+		(at 339.09 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27347,7 +29636,7 @@
 		(dnp no)
 		(uuid "d844cd9a-6b66-4c23-86f1-20c4e069592a")
 		(property "Reference" "TP50"
-			(at 395.732 142.24 90)
+			(at 324.612 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27358,7 +29647,7 @@
 			)
 		)
 		(property "Value" "ServoPWM"
-			(at 405.892 142.24 90)
+			(at 334.772 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27369,7 +29658,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 410.21 137.16 0)
+			(at 339.09 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27380,7 +29669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 137.16 0)
+			(at 339.09 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27391,7 +29680,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 410.21 142.24 0)
+			(at 339.09 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27415,7 +29704,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 345.44 170.18 90)
+		(at 454.66 151.13 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27423,31 +29712,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d9138667-de19-4fa8-8c3f-f3bbfd6ba9fa")
-		(property "Reference" "R11"
-			(at 346.964 167.894 90)
+		(uuid "d9390d12-cb88-4c7b-98ad-2720d3679de6")
+		(property "Reference" "R39"
+			(at 454.152 153.416 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 347.472 170.18 90)
+		(property "Value" "47k"
+			(at 454.66 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 345.44 171.958 90)
+			(at 454.66 149.352 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27458,7 +29745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 170.18 0)
+			(at 454.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27469,7 +29756,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 345.44 170.18 0)
+			(at 454.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27479,16 +29766,16 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "be621638-f703-4091-8325-31d7924ab5f7")
-		)
 		(pin "1"
-			(uuid "cf2f816b-6e97-4c1e-9989-0bcaf11448ca")
+			(uuid "06e005b2-92fb-4037-9f21-91fd128108ef")
+		)
+		(pin "2"
+			(uuid "bbfb5ffb-d867-4d50-9b19-6b6f8799990a")
 		)
 		(instances
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "R11")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -27893,7 +30180,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 187.96 73.66 270)
+		(at 433.07 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27901,9 +30188,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e2521663-f44d-4b93-aeb9-6b9fd78efac5")
-		(property "Reference" "TP24"
-			(at 200.406 73.406 90)
+		(uuid "e0e07d97-8c8b-42cb-bcb5-339ea8bf05fd")
+		(property "Reference" "TP100"
+			(at 445.008 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27913,8 +30200,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USB_DN"
-			(at 192.532 73.406 90)
+		(property "Value" "M_INHB"
+			(at 437.642 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27925,7 +30212,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 187.96 78.74 0)
+			(at 433.07 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27936,7 +30223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 78.74 0)
+			(at 433.07 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27947,7 +30234,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 187.96 73.66 0)
+			(at 433.07 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27958,12 +30245,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "92f7ac57-bb52-4ea5-bb40-42fa61559e40")
+			(uuid "13467267-9d01-467d-80a1-d95825590aa6")
 		)
 		(instances
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
-					(reference "TP24")
+					(reference "TP100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 433.07 156.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e152a779-42fe-42d4-bf53-4f2a195d4562")
+		(property "Reference" "TP96"
+			(at 445.008 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INLC"
+			(at 437.642 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 433.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 433.07 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab00adc1-c34a-4c9f-a6be-bd2169ae906a")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP96")
 					(unit 1)
 				)
 			)
@@ -28206,7 +30571,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 121.92 0)
+		(at 217.17 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28216,7 +30581,7 @@
 		(dnp no)
 		(uuid "e4e87346-140b-48c5-a0d4-0447002c416c")
 		(property "Reference" "#PWR027"
-			(at 214.63 128.27 0)
+			(at 217.17 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28227,7 +30592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 125.222 0)
+			(at 219.71 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28237,7 +30602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 121.92 0)
+			(at 217.17 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28248,7 +30613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 121.92 0)
+			(at 217.17 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28259,7 +30624,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 121.92 0)
+			(at 217.17 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28283,7 +30648,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 123.19 90.17 270)
+		(at 123.19 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28293,7 +30658,7 @@
 		(dnp no)
 		(uuid "e5054eec-fde1-4028-84a1-f5913a95cc2b")
 		(property "Reference" "R42"
-			(at 122.682 92.456 90)
+			(at 120.904 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28303,7 +30668,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 123.19 90.17 90)
+			(at 123.19 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28313,7 +30678,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 123.19 88.392 90)
+			(at 123.19 89.662 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28324,7 +30689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 90.17 0)
+			(at 123.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28335,7 +30700,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 90.17 0)
+			(at 123.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28519,7 +30884,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 410.21 144.78 90)
+		(at 339.09 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28529,7 +30894,7 @@
 		(dnp no)
 		(uuid "e8384ae0-fdd4-43c9-b723-0fc9b7509dfc")
 		(property "Reference" "TP73"
-			(at 395.732 144.78 90)
+			(at 324.612 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28540,7 +30905,7 @@
 			)
 		)
 		(property "Value" "ServoVCC"
-			(at 405.638 144.78 90)
+			(at 334.518 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28551,7 +30916,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 410.21 139.7 0)
+			(at 339.09 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28562,7 +30927,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 139.7 0)
+			(at 339.09 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28573,7 +30938,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 410.21 144.78 0)
+			(at 339.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28755,6 +31120,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 412.75 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8f9ec8b-47fb-41fa-9556-941369a25a22")
+		(property "Reference" "#PWR0117"
+			(at 412.75 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 410.21 142.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 412.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 412.75 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "027794ed-7eac-4f60-9cbe-ecd87c80e801")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 199.39 121.92 90)
 		(unit 1)
@@ -28918,7 +31360,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 410.21 147.32 90)
+		(at 339.09 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28928,7 +31370,7 @@
 		(dnp no)
 		(uuid "ecc1d4b4-8a60-4d45-8b01-008f3c1c9d2e")
 		(property "Reference" "TP74"
-			(at 395.732 147.32 90)
+			(at 324.612 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28939,7 +31381,7 @@
 			)
 		)
 		(property "Value" "ServoGND"
-			(at 405.638 147.32 90)
+			(at 334.518 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28950,7 +31392,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 410.21 142.24 0)
+			(at 339.09 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28961,7 +31403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 142.24 0)
+			(at 339.09 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28972,7 +31414,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 410.21 147.32 0)
+			(at 339.09 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29223,6 +31665,83 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 441.96 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efe17c83-238b-48bf-b0a2-69b0397b6fc7")
+		(property "Reference" "#PWR055"
+			(at 441.96 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 444.246 142.494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 441.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 441.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 441.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9e1203d-991a-4151-b224-58160830d2af")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -29627,6 +32146,84 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 393.7 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f31035aa-7f83-44cb-ae28-be919378569f")
+		(property "Reference" "TP103"
+			(at 402.59 140.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_nFAULT"
+			(at 392.43 140.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 398.78 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 393.7 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d57c929a-bf58-476f-a657-39d0047d6271")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 139.7 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -29945,6 +32542,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 433.07 161.29 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6c2162c-82ed-44c8-9823-283f786be8eb")
+		(property "Reference" "TP98"
+			(at 445.008 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INLA"
+			(at 437.642 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 433.07 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.07 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 433.07 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a2dd2bc-2692-4754-88b8-21fc3d8d7f33")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 187.96 25.4 270)
 		(unit 1)
@@ -30103,6 +32778,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 318.77 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb0016a2-9192-4097-af42-68b763f4c84b")
+		(property "Reference" "TP81"
+			(at 316.23 33.274 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND INPUT"
+			(at 313.436 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 323.85 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3309341b-4f17-45fc-b8f7-35df2e9cf796")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb374854-51cb-4c60-9415-ddc0a30a62a7")
+		(property "Reference" "TP94"
+			(at 199.898 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_INHB"
+			(at 192.532 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85538cb3-a4ee-4bf9-afc3-6208a537ed92")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 332.74 110.49 0)
 		(unit 1)
@@ -30175,6 +33006,84 @@
 			(project "LSwarm Firefly"
 				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 187.96 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbfcfd3e-bc17-48be-bc22-85f296c091e6")
+		(property "Reference" "TP102"
+			(at 202.946 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M_nFAULT"
+			(at 192.532 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 187.96 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 187.96 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5d7895a-911b-46b4-81fb-83bb7ecb0e93")
+		)
+		(instances
+			(project "LSwarm Firefly"
+				(path "/8b1093f7-47d1-4d49-ac45-0c3845b9791c"
+					(reference "TP102")
 					(unit 1)
 				)
 			)
