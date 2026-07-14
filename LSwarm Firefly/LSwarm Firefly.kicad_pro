@@ -190,14 +190,6 @@
           ""
         ],
         [
-          "silk_over_copper|5661628|49760000|b3acd785-4726-4ac0-b332-4bcb966b6d16|ff5ef174-0eb1-4357-8e1f-94147e3ecf0a",
-          ""
-        ],
-        [
-          "silk_over_copper|6066390|50720550|b3acd785-4726-4ac0-b332-4bcb966b6d16|9d0ec23f-476d-4a01-b256-54b1d09b266d",
-          ""
-        ],
-        [
           "silk_over_copper|6182592|22012869|3d4b1bae-2554-4d2d-9f50-7655290151ff|c75fd558-fe5d-4fac-ad90-04ed9c65ca67",
           ""
         ],
@@ -794,7 +786,7 @@
         "uuid": "8b1093f7-47d1-4d49-ac45-0c3845b9791c"
       }
     ],
-    "used_designators": "#PWR79,#PWR85,#PWR87,#PWR118-119,C82-83,R45-46,U9",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
