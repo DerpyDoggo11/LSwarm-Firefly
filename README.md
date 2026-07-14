@@ -37,3 +37,18 @@ If you live outside of the US, the restrictions will be different so make sure y
 Total cost: **$231,96**
 
 Cost per drone: **$46.39**
+
+## Tools / Other parts:
+- Hot-air reflow station or SMD hot plate
+- Soldering iron + solder
+- Solder paste for SMD components
+- Tweezers for SMD components
+
+For drone light displays, you'll also need the [UWB anchors](https://github.com/DerpyDoggo11/LSwarm-Anchor) and a powerful MCU devboard or laptop.
+
+## Assembly:
+1. Apply solder paste to all smd components directly or through a stencil
+2. Heat up components with a hot plate or hot-air gun
+3. 3D print drone case
+4. Mount components to drone case
+4. Plug in USB-C port and upload software
