@@ -1,13 +1,19 @@
 # LSwarm Firefly
 A single motor Micro-Aerial Vehicle for drone swarm light displays
 
+## Case
 ![Case](model2.png)
 
+## 3D PCB Preview
 ![3D PCB](model.png)
 
+## PCB Wiring
 ![PCB](wiring.png)
 
+## PCB Schematic
 ![Schematic](schematic.png)
+
+### Download ./latestProduction to fabricate your own PCB.
 
 ## Introduction
 The LS Firefly is the baby brother to the original [LS Mk.1](https://github.com/DerpyDoggo11/LSwarm), the goal is to be smaller, safer, and a little more unique than the previous drone. Although it does come at some costs such as reduced manuverability and no USB-C connectivity. Like the previous model, rather than using GPS, it uses UWB frequencies to communicate with ground anchors (see [LS Anchor](https://github.com/DerpyDoggo11/LSwarm-Anchor)) for positioning. To fabricate these drones yourself, see the bill of materials below and follow the instructions. 
